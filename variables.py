@@ -1,6 +1,6 @@
 #----------------------------STRING VARIBLES---------------------------#
 
-#this is a string type variable in python.
+""" #this is a string type variable in python.
 name = 'Luis'  
 
 #print the sentence.
@@ -25,9 +25,18 @@ print(name.lower())
 print(len(name))
 
 #this line replaces and prints the specified word with another word.
-print(name.replace('Luis', 'hi, my name is '+ name))
+print(name.replace('Luis', 'hi, my name is '+ name)) """
 
-#---------------------------------NUMBER VARIBLES---------------------------------------#
+#formatting a varaible (%s string, %d int, %f float.
+
+a = 1.3548933
+b = 'hello'
+print('the variable is %s ' %b)
+print('the variable is %.3f ' %a)
+print('the variable is %d ' %a)
+
+
+""" #---------------------------------NUMBER VARIBLES---------------------------------------#
 
 #this is a number type variable in python.
 
@@ -62,6 +71,4 @@ print(abs(number1-number2))
 print(max(number1, number2, number3, number4))
 
 #this line prints the minimun value of a list of numbers.
-print(min(number1, number2, number3, number4))
-
-
+print(min(number1, number2, number3, number4)) """
