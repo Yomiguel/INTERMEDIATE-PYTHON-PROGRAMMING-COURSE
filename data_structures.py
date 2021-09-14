@@ -82,4 +82,45 @@ print(x)
 print(x[1])
 
 #this part of the code print the element indicated of the matrix x.
-print(x[1][0])
+print(x[1][0]) 
+
+#---------------------------- sets ---------------------------#
+
+#this part of the code creates and prints a set. repeated information in a set is not taken into account.
+y = {'luis', 'miguel', 15, 'luis', 'miguel'}
+x = set(['luis', 18, 'luis', 18])
+print(y, x)
+
+#this part of the code creates a set and adds elements.
+z = set()
+z.add('luis')
+z.add('miguel')
+z.add('jimenez')
+print(z)
+
+#this part of the code removes item from the set.
+z.remove('miguel')
+print(z) 
+
+#this part of the code shows the operation between sets (set.union(), set.intersection(), set.difference(), ).
+a = {1, 3, 5, 7, 9, 11}
+b = {2, 4, 6, 8, 10, 12}
+c = {3, 6, 9, 12, 15, 18}
+
+union = a.union(b)
+print(union)
+
+intersection = a.intersection(c)
+print(intersection)
+
+intersection = b.intersection(c)
+print(intersection)
+
+dif = a.difference(c)
+print(dif)
+
+dif = b.difference(c)
+print(dif)
+
+
+
